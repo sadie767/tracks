@@ -4,11 +4,15 @@ $(document).ready(function() {
   $("#Ruby").hide();
   $("#PHP").hide();
   $("#Java").hide();
+
   var question1 = $("#question1").val();
   var question2 = $("#question2").val();
   var question3 = $("question3").val();
   var question4 = $("question4").val();
   var question5 = $("question5").val();
+
+  var name = prompt("enter name");
+  alert(name + " you'd make a great decision attending Epicodus!")
 
   if (question1 === "social" && question2 === "coffee" && question3 === "at-home" && question4 === "democrat" && question5 === "New-Wave") {
     $("#Ruby").show();
@@ -28,5 +32,5 @@ $(document).ready(function() {
     $("#Java").show();
   }
   event.preventDefault();
-  });
+});
 });
