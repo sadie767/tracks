@@ -1,3 +1,17 @@
-  #Ruby, #Java, #PHP {
+#Ruby, #Java, #PHP {
     display: none;
+}
+h1 {
+  color: #15bddb;
+  font-family: sans-serif;
+  text-shadow: 2px 2px black;
+}
+h2 {
+  color: #ef7409;
+  font-family: monospace;
+  text-shadow: 2px 2px black;
+}
+body {
+  color: #ef7409;
+  font-weight: bold;
 }
