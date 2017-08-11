@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  alert("Help me!");
   $("#formOne").submit(function(event) {
 
   $("#Ruby").hide();
